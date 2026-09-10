@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "pycrr: Fine-Gray Competing Risks Regression with Diagnostic Inference in Python"
+version: 0.1.0
+date-released: "2026-09-10"
+authors:
+  - family-names: Bae
+    given-names: Jiwoo
+license: MIT
+repository-code: https://github.com/jiwoobae7/pycrr
+doi: 10.5281/zenodo.22685247
+keywords:
+  - survival analysis
+  - competing risks
+  - Fine-Gray
+  - statistics
+  - epidemiology
