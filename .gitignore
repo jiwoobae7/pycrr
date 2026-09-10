@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Environments
+.env
+.venv
+env/
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Generated outputs
+examples/*.png
+examples/r_cif_full.csv
+
+# JOSS paper (draft — add when ready for submission)
+paper.md
+paper.bib
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.Rhistory
+examples/r_cif_full.csv
+
+# External datasets — obtain via examples/fetch_datasets.R
+examples/mgus2.csv
+examples/BMT_cmprsk.csv
+examples/transplant_numeric.csv
+
+# Keep our synthetic validation dataset (user-generated, needed for tests)
+!examples/validation_data.csv
