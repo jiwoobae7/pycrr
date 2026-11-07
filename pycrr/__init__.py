@@ -20,4 +20,4 @@ __all__ = [
     "plot_cif_stack",
     "plot_brier_score",
 ]
-__version__ = "0.1.0"
+__version__ = "0.1.1"
