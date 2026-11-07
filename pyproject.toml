@@ -31,7 +31,7 @@ dev = [
 ]
 
 [project.urls]
-Repository = "https://github.com/<your-username>/pycrr"
+Repository = "https://github.com/jiwoobae7/pycrr"
 
 [tool.setuptools.packages.find]
 where   = ["."]

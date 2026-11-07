@@ -179,9 +179,9 @@ result.summary()
 ```python
 from pycrr.metrics import brier_score, integrated_brier_score, concordance
 
-bs  = brier_score(model, X_test, time_test, event_test, t=5.0)
+bs  = brier_score(model, X_test, time_test, event_test, eval_times=np.array([5.0]))
 ibs = integrated_brier_score(model, X_test, time_test, event_test,
-                              times=np.linspace(0.5, 8, 50))
+                              eval_times=np.linspace(0.5, 8, 50))
 c   = concordance(model, X_test, time_test, event_test)
 ```
 

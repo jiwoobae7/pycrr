@@ -4,6 +4,7 @@ from pycrr.core import estimate_ipcw_weights
 from pycrr.estimator import AalenJohansen
 from pycrr.compare import gray_test, GrayTestResult
 from pycrr.metrics import brier_score, integrated_brier_score, concordance
+from pycrr.plot import plot_cif, plot_cif_stack, plot_brier_score
 
 __all__ = [
     "Surv",
@@ -15,5 +16,8 @@ __all__ = [
     "brier_score",
     "integrated_brier_score",
     "concordance",
+    "plot_cif",
+    "plot_cif_stack",
+    "plot_brier_score",
 ]
 __version__ = "0.1.0"
